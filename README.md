@@ -44,5 +44,16 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
 
 ### Решение 3
 
+В PostgreSQL используются следующие индексы:
+
+B-tree индекс
+Hash индекс
+GiST (Generalized Search Tree) индекс
+SP-GiST (Space-Partitioning GiST) индекс
+GIN (Generalized Inverted Index) индекс
+BRIN (Block Range Index) индекс
+
+А в MySQL не используется Hash индекс.
+Основными типами индексов в MySQL являются B-tree индексы, которые используются для большинства типов индексации.
 --
 
