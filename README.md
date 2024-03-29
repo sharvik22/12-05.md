@@ -5,7 +5,7 @@
 Напишите запрос к учебной базе данных, который вернёт процентное отношение общего размера всех индексов к общему размеру всех таблиц.
 
 ### Решение 1
-![image](https://github.com/sharvik22/12-03.md/blob/main/images/1.png)
+![image](https://github.com/sharvik22/12-05.md/blob/main/images/1.png)
 
 ---
 
@@ -21,6 +21,15 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
 - оптимизируйте запрос: внесите корректировки по использованию операторов, при необходимости добавьте индексы.
 
 ### Решение 2
+
+## До оптимизации 
+![image](https://github.com/sharvik22/12-05.md/blob/main/images/2.png)
+![image](https://github.com/sharvik22/12-05.md/blob/main/images/2-1.png)
+
+## После оптимизации 
+
+![image](https://github.com/sharvik22/12-05.md/blob/main/images/2-2.png)
+![image](https://github.com/sharvik22/12-05.md/blob/main/images/3-1.png)
 
 ---
 
