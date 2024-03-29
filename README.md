@@ -60,6 +60,3 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
 
 # В MySQL не используется Hash индекс.
 Основными типами индексов в MySQL являются B-tree индексы, которые используются для большинства типов индексации.
-
---
-
