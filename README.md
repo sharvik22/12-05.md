@@ -29,7 +29,7 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
 ## После оптимизации 
 
 ![image](https://github.com/sharvik22/12-05.md/blob/main/images/2-2.png)
-![image](https://github.com/sharvik22/12-05.md/blob/main/images/3-1.png)
+![image](https://github.com/sharvik22/12-05.md/blob/main/images/2-3.png)
 
 ---
 
