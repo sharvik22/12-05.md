@@ -37,6 +37,8 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
 
 ![image](https://github.com/sharvik22/12-05.md/assets/136818757/3e296d8e-f892-4f5f-af3b-13f4104d9472)
 
+CREATE INDEX idx_payment_date ON payment (payment_date);
+
 ![image](https://github.com/sharvik22/12-05.md/assets/136818757/6b6f22e5-96c8-4085-990d-bcac427a9d69)
 
 ![image](https://github.com/sharvik22/12-05.md/assets/136818757/73414d54-0da0-4517-9b44-d01f6a6c1196)
